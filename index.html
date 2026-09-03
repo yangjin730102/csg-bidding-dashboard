@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>南方电网招标信息看板</title>
+<style>
+  :root{
+    --bg:#0f172a; --panel:#ffffff; --ink:#0f172a; --muted:#64748b;
+    --line:#e2e8f0; --brand:#0e7490; --brand2:#0891b2; --accent:#f59e0b;
+    --chip:#f1f5f9; --ok:#059669; --shadow:0 1px 3px rgba(15,23,42,.08),0 8px 24px rgba(15,23,42,.06);
+  }
+  *{box-sizing:border-box}
+  body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;
+    color:var(--ink);background:#f6f8fb;line-height:1.5;-webkit-font-smoothing:antialiased}
+  a{color:var(--brand);text-decoration:none}
+  .hero{background:linear-gradient(120deg,#0e7490,#155e75 55%,#164e63);color:#fff;padding:34px 24px 78px;position:relative;overflow:hidden}
+  .hero::after{content:"";position:absolute;inset:0;background:
+    radial-gradient(600px 200px at 85% -20%,rgba(255,255,255,.18),transparent);pointer-events:none}
+  .hero-inner{max-width:1200px;margin:0 auto;position:relative;z-index:1}
+  .hero h1{margin:0 0 6px;font-size:26px;letter-spacing:.5px;display:flex;align-items:center;gap:10px}
+  .hero h1 .dot{width:10px;height:10px;border-radius:50%;background:var(--accent);box-shadow:0 0 0 4px rgba(245,158,11,.25)}
+  .hero p{margin:0;color:rgba(255,255,255,.82);font-size:13.5px}
+  .src{margin-top:10px;display:inline-flex;gap:8px;flex-wrap:wrap}
+  .src span{background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.18);padding:4px 10px;border-radius:999px;font-size:12px}
+  .wrap{max-width:1200px;margin:-56px auto 0;padding:0 24px 60px;position:relative;z-index:2}
+  .stats{display:grid;grid-template-columns:repeat(5,1fr);gap:14px;margin-bottom:18px}
+  .stat{background:var(--panel);border-radius:14px;padding:16px 16px 14px;box-shadow:var(--shadow);border:1px solid var(--line)}
+  .stat .n{font-size:24px;font-weight:700;color:var(--brand);letter-spacing:.5px}
+  .stat .l{font-size:12.5px;color:var(--muted);margin-top:2px}
+  .card{background:var(--panel);border-radius:14px;box-shadow:var(--shadow);border:1px solid var(--line)}
+  .panel{padding:16px 18px;margin-bottom:18px}
+  .panel h2{margin:0 0 12px;font-size:14px;color:var(--ink);display:flex;justify-content:space-between;align-items:center}
+  .panel h2 small{font-weight:400;color:var(--muted);font-size:12px}
+  .bar-row{display:grid;grid-template-columns:96px 1fr 44px;align-items:center;gap:10px;margin:7px 0;font-size:12.5px}
+  .bar-track{background:var(--chip);border-radius:999px;height:12px;overflow:hidden}
+  .bar-fill{height:100%;background:linear-gradient(90deg,var(--brand),var(--brand2));border-radius:999px}
+  .bar-num{text-align:right;color:var(--muted)}
+  .bar-label{color:var(--ink);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .controls{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin-bottom:14px}
+  .controls .grow{flex:1;min-width:220px}
+  input[type=search],select{width:100%;padding:10px 12px;border:1px solid var(--line);border-radius:10px;font-size:13.5px;background:#fff;color:var(--ink)}
+  select{max-width:190px}
+  input:focus,select:focus{outline:none;border-color:var(--brand2);box-shadow:0 0 0 3px rgba(8,145,178,.15)}
+  .count{color:var(--muted);font-size:13px;margin:2px 2px 14px}
+  .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(340px,1fr));gap:16px}
+  .item{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:16px;box-shadow:var(--shadow);display:flex;flex-direction:column;gap:10px;transition:.15s}
+  .item:hover{transform:translateY(-2px);border-color:#cbd5e1;box-shadow:0 6px 20px rgba(15,23,42,.10)}
+  .it-top{display:flex;gap:6px;flex-wrap:wrap}
+  .tag{font-size:11.5px;padding:3px 9px;border-radius:999px;background:var(--chip);color:#334155;font-weight:600}
+  .tag.cat{background:#ecfeff;color:#0e7490;border:1px solid #a5f3fc}
+  .tag.st{background:#fef3c7;color:#92400e;border:1px solid #fde68a}
+  .tag.pl{background:#eef2ff;color:#4338ca;border:1px solid #c7d2fe}
+  .it-title{font-size:15px;font-weight:700;line-height:1.45;margin:0;color:var(--ink)}
+  .it-title a{color:var(--ink)}
+  .it-title a:hover{color:var(--brand)}
+  .code{font-size:12px;color:var(--muted);font-family:ui-monospace,Menlo,monospace}
+  .kv{display:grid;grid-template-columns:1fr 1fr;gap:8px 14px;margin-top:2px}
+  .kv .k{font-size:11px;color:var(--muted);margin-bottom:1px}
+  .kv .v{font-size:13px;color:var(--ink);font-weight:600}
+  .kv .v.money{color:#b91c1c}
+  .it-foot{display:flex;gap:8px;align-items:center;margin-top:2px;flex-wrap:wrap}
+  .btn{font-size:12.5px;padding:7px 12px;border-radius:9px;border:1px solid var(--line);background:#fff;cursor:pointer;color:var(--ink);font-weight:600}
+  .btn:hover{background:#f8fafc}
+  .btn.primary{background:var(--brand);color:#fff;border-color:var(--brand)}
+  .btn.primary:hover{background:#155e75}
+  .detail{display:none;background:#f8fafc;border:1px dashed var(--line);border-radius:10px;padding:12px;font-size:12.5px;color:#334155}
+  .detail.show{display:block}
+  .detail .sec{margin-bottom:8px}
+  .detail .sec:last-child{margin-bottom:0}
+  .detail .sec b{display:block;color:var(--ink);margin-bottom:2px;font-size:12px}
+  .empty{text-align:center;color:var(--muted);padding:50px 0;font-size:14px}
+  .pager{display:flex;gap:8px;align-items:center;justify-content:center;flex-wrap:wrap;margin-top:20px}
+  .pager button{min-width:38px;height:38px;padding:0 12px;border:1px solid var(--line);background:#fff;border-radius:9px;cursor:pointer;font-size:13.5px;color:var(--ink);font-weight:600}
+  .pager button:hover:not(:disabled){border-color:var(--brand2);color:var(--brand)}
+  .pager button.active{background:var(--brand);color:#fff;border-color:var(--brand)}
+  .pager button:disabled{opacity:.4;cursor:not-allowed}
+  .pager .gap{color:var(--muted);padding:0 4px}
+  .foot{max-width:1200px;margin:0 auto;padding:20px 24px;color:var(--muted);font-size:12px;text-align:center}
+  @media(max-width:900px){.stats{grid-template-columns:repeat(2,1fr)}}
+  @media(max-width:520px){.grid{grid-template-columns:1fr}.kv{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+  <div class="hero">
+    <div class="hero-inner">
+      <h1><span class="dot"></span>南方电网招标信息看板</h1>
+      <p>自动抓取 · 品类匹配 · 结构化呈现招标 / 采购公告关键信息</p>
+      <div class="src">
+        <span>数据来源：飞书多维表格</span>
+        <span>快照时间：<b id="snapTime">—</b></span>
+        <span>共 <b id="heroCount">0</b> 条公告</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="wrap">
+    <div class="stats" id="stats"></div>
+
+    <div class="card panel">
+      <h2>品类分布 <small>按匹配品类统计公告数量</small></h2>
+      <div id="catChart"></div>
+    </div>
+
+    <div class="card panel">
+      <h2>公告列表</h2>
+      <div class="controls">
+        <div class="grow"><input type="search" id="q" placeholder="搜索项目名称 / 编号 / 采购单位…"></div>
+        <select id="fCat"><option value="">全部品类</option></select>
+        <select id="fBuyer"><option value="">全部采购单位</option></select>
+        <select id="sort">
+          <option value="pub_desc">按发布时间（新→旧）</option>
+          <option value="pub_asc">按发布时间（旧→新）</option>
+          <option value="budget_desc">按预算金额（高→低）</option>
+          <option value="budget_asc">按预算金额（低→高）</option>
+          <option value="bid_asc">按开标时间（近→远）</option>
+        </select>
+      </div>
+      <div class="count" id="count"></div>
+      <div class="grid" id="grid"></div>
+      <div class="empty" id="empty" style="display:none">没有匹配的公告，试试调整筛选条件。</div>
+      <div class="pager" id="pager"></div>
+    </div>
+  </div>
+
+  <div class="foot">本页数据由自动化工作流定期从飞书多维表格导出后生成 · <span id="genTime">—</span></div>
+
+<script>
+const PAGE_SIZE = 9;
+let DATA = [];
+let page = 1;
+const esc = s => (s==null?"":String(s)).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const moneyNum = s => { const m = String(s||"").replace(/[^0-9.]/g,""); const n=parseFloat(m); return isNaN(n)?0:n; };
+const wan = s => { const n=moneyNum(s); return n/10000; }; // 元 -> 万元
+
+function buildStatsAndCharts(){
+  const total = DATA.length;
+  const totalBudget = DATA.reduce((a,x)=>a+wan(x.budget),0);
+  const buyers = new Set(DATA.map(x=>x.buyer).filter(Boolean));
+  const cats = new Set(DATA.map(x=>x.cat).filter(Boolean));
+  const ts = DATA.map(x=>x.bidtime).filter(Boolean).sort();
+  const statDefs=[
+    ["项目总数", total+" 条"],
+    ["预算总额", totalBudget.toFixed(1)+" 万元"],
+    ["采购单位", buyers.size+" 家"],
+    ["覆盖品类", cats.size+" 类"],
+    ["最近开标", (ts[0]||"—").slice(0,10)],
+  ];
+  document.getElementById("stats").innerHTML = statDefs.map(d=>
+    `<div class="stat"><div class="n">${esc(d[1])}</div><div class="l">${esc(d[0])}</div></div>`).join("");
+  document.getElementById("heroCount").textContent = total;
+
+  const cc={}; DATA.forEach(x=>{ if(x.cat) cc[x.cat]=(cc[x.cat]||0)+1; });
+  const ccArr=Object.entries(cc).sort((a,b)=>b[1]-a[1]);
+  const cmax=ccArr.length?ccArr[0][1]:1;
+  document.getElementById("catChart").innerHTML = ccArr.length? ccArr.map(([k,v])=>
+    `<div class="bar-row"><span class="bar-label" title="${esc(k)}">${esc(k)}</span>
+     <div class="bar-track"><div class="bar-fill" style="width:${(v/cmax*100).toFixed(0)}%"></div></div>
+     <span class="bar-num">${v}</span></div>`).join("") : `<div style="color:#94a3b8;font-size:13px">暂无数据</div>`;
+
+  const fCat=document.getElementById("fCat"), fBuyer=document.getElementById("fBuyer");
+  fCat.innerHTML=`<option value="">全部品类</option>`; fBuyer.innerHTML=`<option value="">全部采购单位</option>`;
+  [...cats].filter(Boolean).sort().forEach(c=>fCat.insertAdjacentHTML("beforeend",`<option value="${esc(c)}">${esc(c)}</option>`));
+  [...buyers].filter(Boolean).sort().forEach(c=>fBuyer.insertAdjacentHTML("beforeend",`<option value="${esc(c)}">${esc(c)}</option>`));
+}
+
+const grid=document.getElementById("grid"), empty=document.getElementById("empty"),
+      countEl=document.getElementById("count"), pagerEl=document.getElementById("pager");
+
+function filteredSorted(){
+  const q=document.getElementById("q").value.trim().toLowerCase();
+  const fc=document.getElementById("fCat").value, fb=document.getElementById("fBuyer").value, sv=document.getElementById("sort").value;
+  let rows=DATA.filter(x=>{
+    if(fc && x.cat!==fc) return false;
+    if(fb && x.buyer!==fb) return false;
+    if(q){ const hay=(x.title+" "+x.code+" "+x.buyer+" "+x.cat).toLowerCase(); if(!hay.includes(q)) return false; }
+    return true;
+  });
+  rows.sort((a,b)=>{
+    if(sv==="pub_desc") return (b.pubtime||"").localeCompare(a.pubtime||"");
+    if(sv==="pub_asc") return (a.pubtime||"").localeCompare(b.pubtime||"");
+    if(sv==="budget_desc") return moneyNum(b.budget)-moneyNum(a.budget);
+    if(sv==="budget_asc") return moneyNum(a.budget)-moneyNum(b.budget);
+    if(sv==="bid_asc"){ const av=a.bidtime||"9999", bv=b.bidtime||"9999"; return av.localeCompare(bv); }
+    return 0;
+  });
+  return rows;
+}
+
+function cardHTML(x){
+  const detail=[
+    x.addr?`<div class="sec"><b>项目实施地点</b>${esc(x.addr)}</div>`:"",
+    x.pkginfo?`<div class="sec"><b>包信息</b>${esc(x.pkginfo)}</div>`:"",
+    x.qual?`<div class="sec"><b>资质条件</b>${esc(x.qual)}</div>`:"",
+    x.perf?`<div class="sec"><b>业绩要求</b>${esc(x.perf)}</div>`:"",
+  ].join("");
+  return `<div class="item">
+    <div class="it-top">
+      ${x.cat?`<span class="tag cat">${esc(x.cat)}</span>`:""}
+      ${x.status?`<span class="tag st">${esc(x.status)}</span>`:""}
+      ${x.platform?`<span class="tag pl">${esc(x.platform)}</span>`:""}
+    </div>
+    <h3 class="it-title">${x.link?`<a href="${esc(x.link)}" target="_blank" rel="noopener">${esc(x.title)}</a>`:esc(x.title)}</h3>
+    <div class="code">${esc(x.code)}</div>
+    <div class="kv">
+      <div><div class="k">预算金额</div><div class="v money">${esc(x.budget||"—")}</div></div>
+      <div><div class="k">采购单位</div><div class="v">${esc(x.buyer||"—")}</div></div>
+      <div><div class="k">发布时间</div><div class="v">${esc(x.pubtime||"—")}</div></div>
+      <div><div class="k">开标时间</div><div class="v">${esc(x.bidtime||"—")}</div></div>
+    </div>
+    <div class="it-foot">
+      ${x.link?`<a class="btn primary" href="${esc(x.link)}" target="_blank" rel="noopener">查看公告</a>`:""}
+      ${detail?`<button class="btn toggle">展开详情</button>`:""}
+    </div>
+    ${detail?`<div class="detail">${detail}</div>`:""}
+  </div>`;
+}
+
+function pageWindow(cur,total){
+  const out=[];
+  const add=n=>out.push(n);
+  if(total<=7){ for(let i=1;i<=total;i++) add(i); return out; }
+  add(1);
+  if(cur>3) add("…");
+  for(let i=Math.max(2,cur-1);i<=Math.min(total-1,cur+1);i++) add(i);
+  if(cur<total-2) add("…");
+  add(total);
+  return out;
+}
+
+function renderPager(totalPages,total){
+  if(total<=PAGE_SIZE){ pagerEl.innerHTML=""; return; }
+  let html=`<button ${page<=1?"disabled":""} data-go="${page-1}">‹ 上一页</button>`;
+  pageWindow(page,totalPages).forEach(p=>{
+    html += (p==="…") ? `<span class="gap">…</span>`
+      : `<button class="${p===page?"active":""}" data-go="${p}">${p}</button>`;
+  });
+  html+=`<button ${page>=totalPages?"disabled":""} data-go="${page+1}">下一页 ›</button>`;
+  pagerEl.innerHTML=html;
+}
+
+function render(){
+  const rows=filteredSorted();
+  const totalPages=Math.max(1,Math.ceil(rows.length/PAGE_SIZE));
+  if(page>totalPages) page=totalPages;
+  if(page<1) page=1;
+  const start=(page-1)*PAGE_SIZE;
+  const pageRows=rows.slice(start,start+PAGE_SIZE);
+  countEl.textContent = rows.length
+    ? `显示 ${start+1}–${Math.min(start+PAGE_SIZE,rows.length)} / 共 ${rows.length} 条 · 第 ${page}/${totalPages} 页`
+    : `共 0 条`;
+  empty.style.display=rows.length?"none":"block";
+  grid.innerHTML=pageRows.map(cardHTML).join("");
+  renderPager(totalPages,rows.length);
+}
+
+grid.addEventListener("click",e=>{
+  if(e.target.classList.contains("toggle")){
+    const d=e.target.closest(".item").querySelector(".detail");
+    const on=d.classList.toggle("show");
+    e.target.textContent=on?"收起详情":"展开详情";
+  }
+});
+pagerEl.addEventListener("click",e=>{
+  const b=e.target.closest("button[data-go]"); if(!b||b.disabled) return;
+  page=parseInt(b.dataset.go,10); render();
+  document.querySelector(".controls").scrollIntoView({behavior:"smooth",block:"start"});
+});
+document.getElementById("q").addEventListener("input",()=>{page=1;render();});
+["fCat","fBuyer","sort"].forEach(id=>document.getElementById(id).addEventListener("change",()=>{page=1;render();}));
+
+async function boot(){
+  let j=null, src="";
+  try{
+    const r=await fetch("/api/data",{cache:"no-store"});
+    if(r.ok){ const d=await r.json(); if(d && Array.isArray(d.items)){ j=d; src="实时读取飞书"; } }
+  }catch(e){ /* 本地服务不可用，回退静态 data.json */ }
+  if(!j){
+    try{
+      const r=await fetch("data.json",{cache:"no-store"});
+      const d=await r.json(); if(d && Array.isArray(d.items)){ j=d; src="飞书快照"; }
+    }catch(err){ DATA=[]; document.getElementById("count").textContent="数据加载失败："+err; }
+  }
+  if(j){
+    DATA=j.items||[];
+    document.getElementById("snapTime").textContent=(j.snapshot||"—")+(src?"（"+src+"）":"");
+    document.getElementById("genTime").textContent="数据快照 "+(j.snapshot||"—")+" · 来源："+(src||"—");
+  }
+  buildStatsAndCharts();
+  render();
+}
+boot();
+</script>
+</body>
+</html>
