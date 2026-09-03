@@ -191,6 +191,7 @@ function cardHTML(x){
   const detail=[
     x.addr?`<div class="sec"><b>项目实施地点</b>${esc(x.addr)}</div>`:"",
     x.pkginfo?`<div class="sec"><b>包信息</b>${esc(x.pkginfo)}</div>`:"",
+    x.fenbao?`<div class="sec"><b>分标项目</b>${esc(x.fenbao)}</div>`:"",
     x.qual?`<div class="sec"><b>资质条件</b>${esc(x.qual)}</div>`:"",
     x.perf?`<div class="sec"><b>业绩要求</b>${esc(x.perf)}</div>`:"",
   ].join("");
