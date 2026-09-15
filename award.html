@@ -9,87 +9,92 @@
   *{box-sizing:border-box}
   body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;color:var(--ink);background:#f6f8fb;line-height:1.5;-webkit-font-smoothing:antialiased}
   a{color:var(--brand);text-decoration:none}
-  .hero{background:linear-gradient(120deg,#0e7490,#155e75 55%,#164e63);color:#fff;padding:30px 24px 70px;position:relative;overflow:hidden}
+  .hero{background:linear-gradient(120deg,#0e7490,#155e75 55%,#164e63);color:#fff;padding:30px 24px 66px;position:relative;overflow:hidden}
   .hero::after{content:"";position:absolute;inset:0;background:radial-gradient(600px 200px at 85% -20%,rgba(255,255,255,.18),transparent);pointer-events:none}
-  .hero-inner{max-width:1200px;margin:0 auto;position:relative;z-index:1}
+  .hero-inner{max-width:1280px;margin:0 auto;position:relative;z-index:1}
   .nav{display:flex;gap:8px;margin-bottom:14px}
   .nav a{padding:6px 14px;border-radius:999px;font-size:13px;color:#fff;border:1px solid rgba(255,255,255,.35)}
   .nav a.on{background:rgba(255,255,255,.2);border-color:#fff}
   .hero h1{margin:0 0 6px;font-size:25px;display:flex;align-items:center;gap:10px}
   .hero h1 .dot{width:10px;height:10px;border-radius:50%;background:var(--accent);box-shadow:0 0 0 4px rgba(245,158,11,.25)}
   .hero p{margin:0;color:rgba(255,255,255,.82);font-size:13.5px}
-  .wrap{max-width:1200px;margin:-52px auto 0;padding:0 24px 60px;position:relative;z-index:2}
-  .stats{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-bottom:18px}
-  .stat{background:var(--panel);border-radius:14px;padding:15px;box-shadow:var(--shadow);border:1px solid var(--line)}
-  .stat .n{font-size:23px;font-weight:700;color:var(--brand)}
+  .wrap{max-width:1280px;margin:-48px auto 0;padding:0 20px 60px;position:relative;z-index:2}
+  .stats{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-bottom:16px}
+  .stat{background:var(--panel);border-radius:14px;padding:14px;box-shadow:var(--shadow);border:1px solid var(--line)}
+  .stat .n{font-size:22px;font-weight:700;color:var(--brand)}
   .stat .l{font-size:12.5px;color:var(--muted);margin-top:2px}
-  .card{background:var(--panel);border-radius:14px;box-shadow:var(--shadow);border:1px solid var(--line);padding:16px 18px;margin-bottom:18px}
-  .controls{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin-bottom:12px}
+  .card{background:var(--panel);border-radius:14px;box-shadow:var(--shadow);border:1px solid var(--line);padding:14px 16px;margin-bottom:16px}
+  .controls{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin-bottom:10px}
   .controls .grow{flex:1;min-width:220px}
-  input[type=search],select{width:100%;padding:10px 12px;border:1px solid var(--line);border-radius:10px;font-size:13.5px;background:#fff;color:var(--ink)}
-  select{max-width:200px}
+  input[type=search],select{width:100%;padding:9px 12px;border:1px solid var(--line);border-radius:10px;font-size:13.5px;background:#fff;color:var(--ink)}
+  select{max-width:190px}
   input:focus,select:focus{outline:none;border-color:var(--brand2);box-shadow:0 0 0 3px rgba(8,145,178,.15)}
-  .chips{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:12px}
-  .chip{padding:5px 12px;border-radius:999px;border:1px solid var(--line);background:#fff;font-size:12.5px;cursor:pointer;color:var(--muted)}
+  .chips{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:10px}
+  .chip{padding:4px 12px;border-radius:999px;border:1px solid var(--line);background:#fff;font-size:12.5px;cursor:pointer;color:var(--muted)}
   .chip.on{background:var(--brand);color:#fff;border-color:var(--brand)}
-  .count{color:var(--muted);font-size:13px;margin:2px 2px 14px}
-  .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(350px,1fr));gap:16px}
-  .item{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:16px;box-shadow:var(--shadow);display:flex;flex-direction:column;gap:10px}
-  .it-top{display:flex;gap:6px;flex-wrap:wrap}
-  .tag{font-size:11.5px;padding:3px 9px;border-radius:999px;background:var(--chip);color:#334155;font-weight:600}
-  .tag.cat{background:#ecfeff;color:#0e7490;border:1px solid #a5f3fc}
-  .tag.dt{background:#fef3c7;color:#92400e;border:1px solid #fde68a}
-  .it-title{font-size:14.5px;font-weight:700;line-height:1.45;margin:0}
-  .it-title a{color:var(--ink)} .it-title a:hover{color:var(--brand)}
-  .kv{display:grid;grid-template-columns:1fr 1fr;gap:8px 14px}
-  .kv .k{font-size:11px;color:var(--muted);margin-bottom:1px}
-  .kv .v{font-size:12.5px;font-weight:600}
-  .cand{font-size:12.5px;color:#0f172a}
-  .cand b{color:#b91c1c}
-  .pager{display:flex;gap:8px;align-items:center;justify-content:center;flex-wrap:wrap;margin-top:20px}
-  .pager button{min-width:38px;height:38px;padding:0 12px;border:1px solid var(--line);background:#fff;border-radius:9px;cursor:pointer;font-size:13.5px;font-weight:600}
+  .count{color:var(--muted);font-size:12.5px;margin:0 2px 10px}
+  .tbl-wrap{overflow-x:auto}
+  table{width:100%;border-collapse:collapse;font-size:13px;min-width:900px}
+  th,td{padding:10px 10px;text-align:left;vertical-align:top;border-bottom:1px solid var(--line)}
+  th{font-size:12px;color:var(--muted);font-weight:600;background:#fafcff}
+  td.t{max-width:340px}
+  td.t a{font-weight:600;color:var(--ink)} td.t a:hover{color:var(--brand)}
+  .tag{display:inline-block;font-size:11px;padding:2px 8px;border-radius:999px;background:#ecfeff;color:#0e7490;border:1px solid #a5f3fc;white-space:nowrap}
+  .tag.dt{background:#fef3c7;color:#92400e;border-color:#fde68a}
+  .cand{font-size:12.5px}
+  .cand .p{color:#b91c1c;font-weight:600}
+  .muted{color:var(--muted)}
+  .pager{display:flex;gap:8px;align-items:center;justify-content:center;flex-wrap:wrap;margin-top:16px}
+  .pager button{min-width:36px;height:36px;padding:0 10px;border:1px solid var(--line);background:#fff;border-radius:9px;cursor:pointer;font-size:13px;font-weight:600}
   .pager button.active{background:var(--brand);color:#fff;border-color:var(--brand)}
   .pager button:disabled{opacity:.4;cursor:not-allowed}
-  .empty{text-align:center;color:var(--muted);padding:50px 0}
-  .foot{max-width:1200px;margin:0 auto;padding:20px 24px;color:var(--muted);font-size:12px;text-align:center}
+  .empty{text-align:center;color:var(--muted);padding:40px 0}
+  .foot{max-width:1280px;margin:0 auto;padding:18px 20px;color:var(--muted);font-size:12px;text-align:center}
   @media(max-width:900px){.stats{grid-template-columns:repeat(2,1fr)}}
-  @media(max-width:520px){.grid{grid-template-columns:1fr}.kv{grid-template-columns:1fr}}
 </style>
 </head>
 <body>
 <div class="hero"><div class="hero-inner">
   <div class="nav"><a href="index.html">招标公告</a><a class="on" href="award.html">中标公示</a></div>
   <h1><span class="dot"></span>南方电网中标公示看板</h1>
-  <p>自动采集中标候选人/中标结果公示 · 分类检索 · 结构化呈现</p>
+  <p>仅收录最近 3 天的中标公告 / 中标公示 · 关键信息一目了然 · 自动采集</p>
 </div></div>
 <div class="wrap">
   <div class="stats" id="stats"></div>
   <div class="card">
     <div class="controls">
-      <div class="grow"><input type="search" id="q" placeholder="搜索标题 / 中标人 / 招标人 / 编号…"></div>
+      <div class="grow"><input type="search" id="q" placeholder="搜索项目名称 / 中标人 / 招标人 / 编号…"></div>
       <select id="sort">
-        <option value="date_desc">按公示时间（新→旧）</option>
-        <option value="date_asc">按公示时间（旧→新）</option>
+        <option value="date_desc">公示时间 新→旧</option>
+        <option value="date_asc">公示时间 旧→新</option>
       </select>
     </div>
     <div class="chips" id="chips"></div>
     <div class="count" id="count"></div>
-    <div class="grid" id="grid"></div>
+    <div class="tbl-wrap">
+      <table>
+        <thead><tr>
+          <th style="width:96px">公示日期</th><th style="width:88px">品类</th><th>项目名称</th>
+          <th style="width:220px">中标人 / 报价</th><th style="width:150px">公示期</th><th style="width:170px">招标人</th>
+        </tr></thead>
+        <tbody id="tbody"></tbody>
+      </table>
+    </div>
     <div class="empty" id="empty" style="display:none">没有匹配的中标公示。</div>
     <div class="pager" id="pager"></div>
   </div>
 </div>
-<div class="foot">数据来源：中国南方电网供应链统一服务平台 · 中标公示频道 · 自动采集</div>
+<div class="foot">数据来源：中国南方电网供应链统一服务平台 · 中标公示频道 · 仅最近3天 · 自动采集</div>
 <script>
-const PAGE=9; let DATA=[], page=1, cat="";
+const PAGE=10; let DATA=[], page=1, cat="";
 const esc=s=>(s==null?"":String(s)).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 function stats(){
   const total=DATA.length;
   const cats=new Set(DATA.map(x=>x.category));
-  const week=DATA.filter(x=>{const d=new Date(x.date);const n=new Date();return (n-d)/86400000<=7;}).length;
   const withC=DATA.filter(x=>x.candidates&&x.candidates.length).length;
+  const dates=new Set(DATA.map(x=>x.date));
   document.getElementById("stats").innerHTML=[
-    ["公示总数",total+" 条"],["覆盖品类",cats.size+" 类"],["近7天新增",week+" 条"],["含中标人",withC+" 条"]
+    ["中标公示",total+" 条"],["覆盖品类",cats.size+" 类"],["覆盖天数",dates.size+" 天"],["含中标人",withC+" 条"]
   ].map(d=>`<div class="stat"><div class="n">${esc(d[1])}</div><div class="l">${esc(d[0])}</div></div>`).join("");
 }
 function chips(){
@@ -103,31 +108,33 @@ function filtered(){
   const q=document.getElementById("q").value.trim().toLowerCase();
   const sv=document.getElementById("sort").value;
   let rows=DATA.filter(x=>{
-    if(cat && x.category!==cat) return false;
+    if(cat&&x.category!==cat)return false;
     if(q){const hay=(x.title+" "+(x.candidates||[]).map(c=>c.name).join(" ")+" "+(x.tenderer||"")+" "+(x.code||"")).toLowerCase();if(!hay.includes(q))return false;}
     return true;
   });
-  rows.sort((a,b)=> sv==="date_desc" ? (b.date||"").localeCompare(a.date||"") : (a.date||"").localeCompare(b.date||""));
+  rows.sort((a,b)=>sv==="date_desc"?(b.date||"").localeCompare(a.date||""):(a.date||"").localeCompare(b.date||""));
   return rows;
 }
-function card(x){
-  const cand=(x.candidates||[]).slice(0,3).map(c=>`<div class="cand">· ${esc(c.name)}${c.price?`　<b>${esc(c.price)}</b>`:""}</div>`).join("")||'<div class="cand" style="color:#94a3b8">· 详见原文</div>';
-  return `<div class="item">
-    <div class="it-top"><span class="tag cat">${esc(x.category)}</span><span class="tag dt">${esc(x.date)}</span></div>
-    <h3 class="it-title"><a href="${esc(x.link)}" target="_blank" rel="noopener">${esc(x.title)}</a></h3>
-    <div class="kv">
-      <div><div class="k">公示期</div><div class="v">${esc(x.gs_start||"—")} ~ ${esc(x.gs_end||"—")}</div></div>
-      <div><div class="k">招标人</div><div class="v">${esc(x.tenderer||"—")}</div></div>
-    </div>
-    <div><div class="k" style="font-size:11px;color:#64748b;margin-bottom:2px">中标人 / 报价</div>${cand}</div>
-  </div>`;
+function row(x){
+  const cand=(x.candidates&&x.candidates.length)
+    ? x.candidates.map(c=>`<div class="cand">${esc(c.name)}${c.price?`　<span class="p">${esc(c.price)}</span>`:""}</div>`).join("")
+    : '<span class="muted">详见原文</span>';
+  return `<tr>
+    <td><span class="tag dt">${esc(x.date)}</span></td>
+    <td><span class="tag">${esc(x.category)}</span></td>
+    <td class="t"><a href="${esc(x.link)}" target="_blank" rel="noopener">${esc(x.title)}</a>${x.code?`<div class="muted" style="font-size:11px">${esc(x.code)}</div>`:""}</td>
+    <td>${cand}</td>
+    <td class="muted">${esc(x.gs_start||"—")} ~ ${esc(x.gs_end||"—")}</td>
+    <td class="muted">${esc(x.tenderer||"—")}</td>
+  </tr>`;
 }
 function pager(tp){
   const el=document.getElementById("pager");
   if(tp<=1){el.innerHTML="";return;}
   let h=`<button ${page<=1?"disabled":""} data-go="${page-1}">‹</button>`;
-  const win=[]; if(tp<=7){for(let i=1;i<=tp;i++)win.push(i);}else{win.push(1);if(page>3)win.push("…");for(let i=Math.max(2,page-1);i<=Math.min(tp-1,page+1);i++)win.push(i);if(page<tp-2)win.push("…");win.push(tp);}
-  win.forEach(p=>h+= p==="…"?'<span style="color:#64748b">…</span>':`<button class="${p===page?"active":""}" data-go="${p}">${p}</button>`);
+  const win=[];
+  if(tp<=7){for(let i=1;i<=tp;i++)win.push(i);}else{win.push(1);if(page>3)win.push("…");for(let i=Math.max(2,page-1);i<=Math.min(tp-1,page+1);i++)win.push(i);if(page<tp-2)win.push("…");win.push(tp);}
+  win.forEach(p=>h+=p==="…"?'<span style="color:#64748b">…</span>':`<button class="${p===page?"active":""}" data-go="${p}">${p}</button>`);
   h+=`<button ${page>=tp?"disabled":""} data-go="${page+1}">›</button>`;
   el.innerHTML=h;
 }
@@ -137,7 +144,7 @@ function render(){
   const st=(page-1)*PAGE, pr=rows.slice(st,st+PAGE);
   document.getElementById("count").textContent=rows.length?`显示 ${st+1}–${Math.min(st+PAGE,rows.length)} / 共 ${rows.length} 条 · 第 ${page}/${tp} 页`:`共 0 条`;
   document.getElementById("empty").style.display=rows.length?"none":"block";
-  document.getElementById("grid").innerHTML=pr.map(card).join("");
+  document.getElementById("tbody").innerHTML=pr.map(row).join("");
   pager(tp);
 }
 document.getElementById("chips").addEventListener("click",e=>{const c=e.target.closest(".chip");if(!c)return;cat=c.dataset.c;page=1;chips();render();});
