@@ -1,5 +1,515 @@
 [
  {
+  "id": "1200442719",
+  "title": "贵州电网有限责任公司服务类2026年第二批信息终端运维服务、信息系统技术服务等项目公开招标中标...",
+  "date": "2026-09-15",
+  "link": "https://www.bidding.csg.cn/zbhxrgs/1200442719.jhtml",
+  "code": "CG0600022002343931",
+  "pubtime": "2026-09-15 19:22:46",
+  "gs_start": "",
+  "gs_end": "",
+  "candidates": [
+   {
+    "name": "云南远信科技有限公司",
+    "price": ""
+   },
+   {
+    "name": "广州云基科技有限公司",
+    "price": ""
+   },
+   {
+    "name": "广州市卓欣信息技术有限公司",
+    "price": ""
+   },
+   {
+    "name": "贵州蓝天创新科技有限公司",
+    "price": ""
+   },
+   {
+    "name": "南方电网数字电网集团",
+    "price": ""
+   },
+   {
+    "name": "（贵州）有限公司",
+    "price": ""
+   },
+   {
+    "name": "南网数字运营软件科技（广东）有限公司",
+    "price": ""
+   },
+   {
+    "name": "北京国科恒通科技股份有限公司",
+    "price": ""
+   },
+   {
+    "name": "东软集团股份有限公司",
+    "price": ""
+   },
+   {
+    "name": "烟台海颐软件股份有限公司",
+    "price": ""
+   },
+   {
+    "name": "电网管理平台（资产域）南网数字运营软件科技（广东）有限公司",
+    "price": ""
+   },
+   {
+    "name": "南网智瞰（设备中心",
+    "price": ""
+   },
+   {
+    "name": "）北京国科恒通科技股份有限公司",
+    "price": ""
+   },
+   {
+    "name": "南方电网数据平台与安全（广东）有限公司",
+    "price": ""
+   },
+   {
+    "name": "云化数据中心",
+    "price": ""
+   },
+   {
+    "name": "广东省电信规划设计院",
+    "price": ""
+   },
+   {
+    "name": "广东融合通信股份有限公司",
+    "price": ""
+   },
+   {
+    "name": "广东拓思软件科学园有限公司",
+    "price": ""
+   },
+   {
+    "name": "成都久信信息技术股份有限公司",
+    "price": ""
+   }
+  ],
+  "tenderer": "贵州电网有限责任公司",
+  "agency": "南方电网供应链（贵州）有限公司",
+  "subject": "",
+  "category": "其他"
+ },
+ {
+  "id": "1200442827",
+  "title": "贵州电网有限责任公司2026年工程类第二批电网基建工程监理公开招标(二次招标)中标公告",
+  "date": "2026-09-15",
+  "link": "https://www.bidding.csg.cn/zbhxrgs/1200442827.jhtml",
+  "code": "CG0600022002332783",
+  "pubtime": "2026-09-15 19:07:07",
+  "gs_start": "",
+  "gs_end": "",
+  "candidates": [
+   {
+    "name": "广西正远监理咨询有限公司",
+    "price": ""
+   }
+  ],
+  "tenderer": "贵州电网有限责任公司",
+  "agency": "南方电网供应链（贵州）有限公司",
+  "subject": "",
+  "category": "其他"
+ },
+ {
+  "id": "1200442762",
+  "title": "南方电网互联网服务有限公司2026年积分中心、营销中心运维服务采购项目中标公告",
+  "date": "2026-09-15",
+  "link": "https://www.bidding.csg.cn/zbhxrgs/1200442762.jhtml",
+  "code": "",
+  "pubtime": "2026-09-15 17:56:38",
+  "gs_start": "",
+  "gs_end": "",
+  "candidates": [],
+  "tenderer": "",
+  "agency": "",
+  "subject": "",
+  "category": "其他"
+ },
+ {
+  "id": "1200442763",
+  "title": "南方电网通用航空服务有限公司2026-2027年综合视频系统信息化技术辅助支持项目中标公告",
+  "date": "2026-09-15",
+  "link": "https://www.bidding.csg.cn/zbhxrgs/1200442763.jhtml",
+  "code": "",
+  "pubtime": "2026-09-15 17:56:11",
+  "gs_start": "",
+  "gs_end": "",
+  "candidates": [],
+  "tenderer": "南方电网通用航空服务有限公司",
+  "agency": "南方电网供应链集团有限公司",
+  "subject": "",
+  "category": "其他"
+ },
+ {
+  "id": "1200442764",
+  "title": "2026年南网数字运营软件科技（广东）有限公司边缘算力节点安装实施服务框架采购项目公开招标中标...",
+  "date": "2026-09-15",
+  "link": "https://www.bidding.csg.cn/zbhxrgs/1200442764.jhtml",
+  "code": "",
+  "pubtime": "2026-09-15 17:49:43",
+  "gs_start": "2026-09-15",
+  "gs_end": "2026-09-18",
+  "candidates": [
+   {
+    "name": "广东织云科技有限公司",
+    "price": "128.01 万元"
+   }
+  ],
+  "tenderer": "南网数字运营软件科技（广东）有限公司",
+  "agency": "向招标人提出",
+  "subject": "",
+  "category": "其他"
+ },
+ {
+  "id": "1200442767",
+  "title": "南网共享公司2026年人资共享端到端流程数智转型诊断与再造项目(二次采购)中标公告",
+  "date": "2026-09-15",
+  "link": "https://www.bidding.csg.cn/zbhxrgs/1200442767.jhtml",
+  "code": "CG3200062002297715",
+  "pubtime": "2026-09-15 17:45:33",
+  "gs_start": "",
+  "gs_end": "",
+  "candidates": [],
+  "tenderer": "",
+  "agency": "",
+  "subject": "",
+  "category": "其他"
+ },
+ {
+  "id": "1200442768",
+  "title": "南网用户生态运营公司人工智能实验室轻量化数智分析工具购置中标公告",
+  "date": "2026-09-15",
+  "link": "https://www.bidding.csg.cn/zbhxrgs/1200442768.jhtml",
+  "code": "",
+  "pubtime": "2026-09-15 17:44:36",
+  "gs_start": "",
+  "gs_end": "",
+  "candidates": [],
+  "tenderer": "南方电网用户生态运营有限责任公司",
+  "agency": "南方电网供应链集团有限公司",
+  "subject": "",
+  "category": "其他"
+ },
+ {
+  "id": "1200442769",
+  "title": "南网北京研究院2026年实验室专用耗材采购项目中标公示",
+  "date": "2026-09-15",
+  "link": "https://www.bidding.csg.cn/zbhxrgs/1200442769.jhtml",
+  "code": "",
+  "pubtime": "2026-09-15 17:41:40",
+  "gs_start": "2026-09-15",
+  "gs_end": "2026-09-20",
+  "candidates": [],
+  "tenderer": "",
+  "agency": "",
+  "subject": "",
+  "category": "其他"
+ },
+ {
+  "id": "1200442770",
+  "title": "南网数字集团2026-2027年法律顾问服务框架项目中标公示",
+  "date": "2026-09-15",
+  "link": "https://www.bidding.csg.cn/zbhxrgs/1200442770.jhtml",
+  "code": "",
+  "pubtime": "2026-09-15 17:35:29",
+  "gs_start": "2026-09-15",
+  "gs_end": "2026-09-18",
+  "candidates": [
+   {
+    "name": "广东君信经纶君厚律师事务所",
+    "price": ""
+   },
+   {
+    "name": "广州金鹏律师事务所",
+    "price": ""
+   }
+  ],
+  "tenderer": "南方电网数字电网集团有限公司",
+  "agency": "南方电网供应链集团有限公司",
+  "subject": "",
+  "category": "法律服务"
+ },
+ {
+  "id": "1200442786",
+  "title": "南方电网供应链科技（广东）有限公司可拆卸全钢瓦楞交货盘配套智能终端框架公开谈判采购项目中标...",
+  "date": "2026-09-15",
+  "link": "https://www.bidding.csg.cn/zbhxrgs/1200442786.jhtml",
+  "code": "CG2700062002370612",
+  "pubtime": "2026-09-15 17:33:22",
+  "gs_start": "2026-09-16",
+  "gs_end": "2026-09-20",
+  "candidates": [],
+  "tenderer": "",
+  "agency": "",
+  "subject": "",
+  "category": "其他"
+ },
+ {
+  "id": "1200442792",
+  "title": "南方电网供应链科技（广东）有限公司可拆卸全钢瓦楞交货盘配套智能终端框架公开谈判采购项目中标...",
+  "date": "2026-09-15",
+  "link": "https://www.bidding.csg.cn/zbhxrgs/1200442792.jhtml",
+  "code": "CG2700062002370612",
+  "pubtime": "2026-09-15 17:33:22",
+  "gs_start": "2026-09-16",
+  "gs_end": "2026-09-20",
+  "candidates": [],
+  "tenderer": "",
+  "agency": "",
+  "subject": "",
+  "category": "其他"
+ },
+ {
+  "id": "1200442791",
+  "title": "南方电网供应链科技（广东）有限公司可拆卸全钢瓦楞交货盘配套智能终端框架公开谈判采购项目中标...",
+  "date": "2026-09-15",
+  "link": "https://www.bidding.csg.cn/zbhxrgs/1200442791.jhtml",
+  "code": "CG2700062002370612",
+  "pubtime": "2026-09-15 17:33:22",
+  "gs_start": "2026-09-16",
+  "gs_end": "2026-09-20",
+  "candidates": [],
+  "tenderer": "",
+  "agency": "",
+  "subject": "",
+  "category": "其他"
+ },
+ {
+  "id": "1200442790",
+  "title": "南方电网供应链科技（广东）有限公司可拆卸全钢瓦楞交货盘配套智能终端框架公开谈判采购项目中标...",
+  "date": "2026-09-15",
+  "link": "https://www.bidding.csg.cn/zbhxrgs/1200442790.jhtml",
+  "code": "CG2700062002370612",
+  "pubtime": "2026-09-15 17:33:22",
+  "gs_start": "2026-09-16",
+  "gs_end": "2026-09-20",
+  "candidates": [],
+  "tenderer": "",
+  "agency": "",
+  "subject": "",
+  "category": "其他"
+ },
+ {
+  "id": "1200442789",
+  "title": "南方电网供应链科技（广东）有限公司可拆卸全钢瓦楞交货盘配套智能终端框架公开谈判采购项目中标...",
+  "date": "2026-09-15",
+  "link": "https://www.bidding.csg.cn/zbhxrgs/1200442789.jhtml",
+  "code": "CG2700062002370612",
+  "pubtime": "2026-09-15 17:33:22",
+  "gs_start": "2026-09-16",
+  "gs_end": "2026-09-20",
+  "candidates": [],
+  "tenderer": "",
+  "agency": "",
+  "subject": "",
+  "category": "其他"
+ },
+ {
+  "id": "1200442787",
+  "title": "南方电网供应链科技（广东）有限公司可拆卸全钢瓦楞交货盘配套智能终端框架公开谈判采购项目中标...",
+  "date": "2026-09-15",
+  "link": "https://www.bidding.csg.cn/zbhxrgs/1200442787.jhtml",
+  "code": "CG2700062002370612",
+  "pubtime": "2026-09-15 17:33:22",
+  "gs_start": "2026-09-16",
+  "gs_end": "2026-09-20",
+  "candidates": [],
+  "tenderer": "",
+  "agency": "",
+  "subject": "",
+  "category": "其他"
+ },
+ {
+  "id": "1200442774",
+  "title": "贵州电网有限责任公司物资类2026年（地线融冰自动接线装置、35kV_GIS间隔等）公开招标中标公告",
+  "date": "2026-09-15",
+  "link": "https://www.bidding.csg.cn/zbhxrgs/1200442774.jhtml",
+  "code": "CG0600022002289680",
+  "pubtime": "2026-09-15 17:30:59",
+  "gs_start": "",
+  "gs_end": "",
+  "candidates": [
+   {
+    "name": "山东泰开成套电器有限公司",
+    "price": ""
+   }
+  ],
+  "tenderer": "贵州电网有限责任公司",
+  "agency": "南方电网供应链（贵州）有限公司",
+  "subject": "",
+  "category": "其他"
+ },
+ {
+  "id": "1200442775",
+  "title": "南方电网数字电网集团（海南）有限公司2026-2028年劳务服务框架公开招标项目中标公告",
+  "date": "2026-09-15",
+  "link": "https://www.bidding.csg.cn/zbhxrgs/1200442775.jhtml",
+  "code": "",
+  "pubtime": "2026-09-15 17:30:31",
+  "gs_start": "",
+  "gs_end": "",
+  "candidates": [],
+  "tenderer": "南方电网数字电网集团有限公司",
+  "agency": "南方电网供应链集团有限公司",
+  "subject": "",
+  "category": "其他"
+ },
+ {
+  "id": "1200442779",
+  "title": "2026年南方电网数字电网集团（广东）有限公司应急保障建设物资框架采购中标公告",
+  "date": "2026-09-15",
+  "link": "https://www.bidding.csg.cn/zbhxrgs/1200442779.jhtml",
+  "code": "CG2100022002332897",
+  "pubtime": "2026-09-15 17:26:05",
+  "gs_start": "",
+  "gs_end": "",
+  "candidates": [
+   {
+    "name": "广州鑫宇视通科技有限公司",
+    "price": ""
+   }
+  ],
+  "tenderer": "南方电网数字电网集团（广东）有限公司",
+  "agency": "南方电网供应链（广东）有限公司",
+  "subject": "",
+  "category": "其他"
+ },
+ {
+  "id": "1200442784",
+  "title": "2026年南网北京研究院泄漏电流监测传感器磁敏感探头加工服务采购中标公告",
+  "date": "2026-09-15",
+  "link": "https://www.bidding.csg.cn/zbhxrgs/1200442784.jhtml",
+  "code": "",
+  "pubtime": "2026-09-15 17:25:02",
+  "gs_start": "",
+  "gs_end": "",
+  "candidates": [],
+  "tenderer": "南方电网新型电力系统（北京）研究院有限公司",
+  "agency": "南方电网供应链集团有限公司",
+  "subject": "",
+  "category": "其他"
+ },
+ {
+  "id": "1200442777",
+  "title": "2026年南网数字运营软件科技（广东）有限公司可再生能源等3个标的服务采购项目公开招标中标公示",
+  "date": "2026-09-15",
+  "link": "https://www.bidding.csg.cn/zbhxrgs/1200442777.jhtml",
+  "code": "",
+  "pubtime": "2026-09-15 17:25:00",
+  "gs_start": "2026-09-15",
+  "gs_end": "2026-09-18",
+  "candidates": [
+   {
+    "name": "广州市奔流电力科技有限公司",
+    "price": "142.52万元"
+   },
+   {
+    "name": "神州数码数云科技有限公司",
+    "price": "190 万元"
+   },
+   {
+    "name": "北京恒泰实达科技股份有限公司",
+    "price": "70.81万元"
+   }
+  ],
+  "tenderer": "南网数字运营软件科技（广东）有限公司",
+  "agency": "向招标人提出",
+  "subject": "",
+  "category": "其他"
+ },
+ {
+  "id": "1200442780",
+  "title": "广东电网公司2026年光纤复合架空地线光缆（OPGW）、光缆金具非标型号专项招标中标公告",
+  "date": "2026-09-15",
+  "link": "https://www.bidding.csg.cn/zbhxrgs/1200442780.jhtml",
+  "code": "CG0300022002300705",
+  "pubtime": "2026-09-15 17:12:04",
+  "gs_start": "",
+  "gs_end": "",
+  "candidates": [
+   {
+    "name": "中天电力光缆有限公司",
+    "price": ""
+   },
+   {
+    "name": "石家庄华能电力金具有限公司",
+    "price": ""
+   }
+  ],
+  "tenderer": "广东电网有限责任公司",
+  "agency": "南方电网供应链（广东）有限公司",
+  "subject": "",
+  "category": "其他"
+ },
+ {
+  "id": "1200442782",
+  "title": "广西博联信息通信技术有限责任公司2026年高精度人员安防管控定位技术研究项目公开招标中标公告",
+  "date": "2026-09-15",
+  "link": "https://www.bidding.csg.cn/zbhxrgs/1200442782.jhtml",
+  "code": "CG2100022002244221",
+  "pubtime": "2026-09-15 17:07:45",
+  "gs_start": "",
+  "gs_end": "",
+  "candidates": [],
+  "tenderer": "广西博联信息通信技术有限责任公司",
+  "agency": "南方电网供应链（广西）有限公司",
+  "subject": "",
+  "category": "其他"
+ },
+ {
+  "id": "1200442758",
+  "title": "深圳供电局有限公司2026年共享服务中心装修工程专项公开招标中标公告",
+  "date": "2026-09-15",
+  "link": "https://www.bidding.csg.cn/zbhxrgs/1200442758.jhtml",
+  "code": "",
+  "pubtime": "2026-09-15 16:44:42",
+  "gs_start": "",
+  "gs_end": "",
+  "candidates": [
+   {
+    "name": "人民桥办公场所",
+    "price": ""
+   },
+   {
+    "name": "深圳市设计装饰工程有限公司",
+    "price": ""
+   },
+   {
+    "name": "深圳市开阳建设有限公司",
+    "price": ""
+   },
+   {
+    "name": "深圳市鼎士建设工程有限公司",
+    "price": ""
+   }
+  ],
+  "tenderer": "深圳供电局有限公司",
+  "agency": "南方电网供应链集团有限公司",
+  "subject": "",
+  "category": "其他"
+ },
+ {
+  "id": "1200442753",
+  "title": "2026年南方电网人工智能科技有限公司电力客服领域多智能体协同与大模型关键技术研究项目采购中标...",
+  "date": "2026-09-15",
+  "link": "https://www.bidding.csg.cn/zbhxrgs/1200442753.jhtml",
+  "code": "CG2100022002351197",
+  "pubtime": "2026-09-15 16:08:40",
+  "gs_start": "",
+  "gs_end": "",
+  "candidates": [
+   {
+    "name": "南京云问网络技术有限公司",
+    "price": ""
+   }
+  ],
+  "tenderer": "南方电网人工智能科技有限公司",
+  "agency": "南方电网供应链（广东）有限公司",
+  "subject": "",
+  "category": "其他"
+ },
+ {
   "id": "1200442745",
   "title": "南方电网通用航空服务有限公司2026年第三批科技技术支撑公开招标采购项目中标公告",
   "date": "2026-09-15",
@@ -930,647 +1440,6 @@
   "candidates": [],
   "tenderer": "",
   "agency": "）主要负责人或授权的项目负责人（签名）：金梓琦",
-  "subject": "",
-  "category": "其他"
- },
- {
-  "id": "1200442542",
-  "title": "广东电网线损对标分析与“十五五”降损规划专题研究项目中标公示",
-  "date": "2026-09-14",
-  "link": "https://www.bidding.csg.cn/zbhxrgs/1200442542.jhtml",
-  "code": "CG0300022002350211",
-  "pubtime": "2026-09-14 17:18:32",
-  "gs_start": "2026-09-14",
-  "gs_end": "2026-09-17",
-  "candidates": [
-   {
-    "name": "南方电网科学研究院",
-    "price": ""
-   },
-   {
-    "name": "有限责任公司",
-    "price": "138万元"
-   }
-  ],
-  "tenderer": "",
-  "agency": "南方电网供应链（广东）有限公司",
-  "subject": "",
-  "category": "其他"
- },
- {
-  "id": "1200442543",
-  "title": "南方电网数字传媒科技有限公司数据安全能力成熟度（DSMM）评估咨询服务公开询比项目中标公告",
-  "date": "2026-09-14",
-  "link": "https://www.bidding.csg.cn/zbhxrgs/1200442543.jhtml",
-  "code": "",
-  "pubtime": "2026-09-14 17:13:01",
-  "gs_start": "",
-  "gs_end": "",
-  "candidates": [],
-  "tenderer": "",
-  "agency": "",
-  "subject": "",
-  "category": "其他"
- },
- {
-  "id": "1200442548",
-  "title": "南网北京分公司人才引进服务及劳务外包服务项目中标公告",
-  "date": "2026-09-14",
-  "link": "https://www.bidding.csg.cn/zbhxrgs/1200442548.jhtml",
-  "code": "",
-  "pubtime": "2026-09-14 17:08:10",
-  "gs_start": "",
-  "gs_end": "",
-  "candidates": [],
-  "tenderer": "中国南方电网有限责任公司北京分公司",
-  "agency": "南方电网供应链集团有限公司",
-  "subject": "",
-  "category": "其他"
- },
- {
-  "id": "1200442550",
-  "title": "南网数字集团2026年培训基地车辆租赁服务公开谈判项目中标公示",
-  "date": "2026-09-14",
-  "link": "https://www.bidding.csg.cn/zbhxrgs/1200442550.jhtml",
-  "code": "",
-  "pubtime": "2026-09-14 17:02:39",
-  "gs_start": "2026-09-14",
-  "gs_end": "2026-09-17",
-  "candidates": [],
-  "tenderer": "",
-  "agency": "",
-  "subject": "",
-  "category": "其他"
- },
- {
-  "id": "1200442553",
-  "title": "南方电网公司电力建设定额站2026年技术服务项目中标公告",
-  "date": "2026-09-14",
-  "link": "https://www.bidding.csg.cn/zbhxrgs/1200442553.jhtml",
-  "code": "",
-  "pubtime": "2026-09-14 16:56:33",
-  "gs_start": "",
-  "gs_end": "",
-  "candidates": [],
-  "tenderer": "南方电网能源发展研究院有限责任公司",
-  "agency": "南方电网供应链集团有限公司",
-  "subject": "",
-  "category": "其他"
- },
- {
-  "id": "1200442554",
-  "title": "南方电网公司电力建设定额站2026年研究咨询项目中标公告",
-  "date": "2026-09-14",
-  "link": "https://www.bidding.csg.cn/zbhxrgs/1200442554.jhtml",
-  "code": "",
-  "pubtime": "2026-09-14 16:54:04",
-  "gs_start": "",
-  "gs_end": "",
-  "candidates": [],
-  "tenderer": "南方电网能源发展研究院有限责任公司",
-  "agency": "南方电网供应链集团有限公司",
-  "subject": "",
-  "category": "其他"
- },
- {
-  "id": "1200442555",
-  "title": "广东电网公司2026年智能变电站保护设备（网采网跳、非新建、非整体改造）专项招标中标公示",
-  "date": "2026-09-14",
-  "link": "https://www.bidding.csg.cn/zbhxrgs/1200442555.jhtml",
-  "code": "CG0300022002367684",
-  "pubtime": "2026-09-14 16:44:27",
-  "gs_start": "2026-09-14",
-  "gs_end": "2026-09-17",
-  "candidates": [
-   {
-    "name": "北京四方继保工程技术有限公司",
-    "price": "68.69万元"
-   }
-  ],
-  "tenderer": "",
-  "agency": "南方电网供应链（广东）有限公司",
-  "subject": "",
-  "category": "其他"
- },
- {
-  "id": "1200442556",
-  "title": "南方电网产业发展集团有限责任公司2026-2028年通信视频语音等维护服务项目中标公示",
-  "date": "2026-09-14",
-  "link": "https://www.bidding.csg.cn/zbhxrgs/1200442556.jhtml",
-  "code": "",
-  "pubtime": "2026-09-14 16:40:25",
-  "gs_start": "2026-09-14",
-  "gs_end": "2026-09-17",
-  "candidates": [],
-  "tenderer": "",
-  "agency": "",
-  "subject": "",
-  "category": "其他"
- },
- {
-  "id": "1200442557",
-  "title": "广西电网公司贺州供电局2026年第三批基建专业报批管理专项咨询服务等4个公开询比采购项目中标公示",
-  "date": "2026-09-14",
-  "link": "https://www.bidding.csg.cn/zbhxrgs/1200442557.jhtml",
-  "code": "",
-  "pubtime": "2026-09-14 16:38:49",
-  "gs_start": "2026-09-14",
-  "gs_end": "2026-09-17",
-  "candidates": [],
-  "tenderer": "",
-  "agency": "（采购服务单位）提出异议",
-  "subject": "",
-  "category": "其他"
- },
- {
-  "id": "1200442558",
-  "title": "广西电网公司百色供电局2026年第一批信息专业信息专业设计施工总承包（地市级）公开询比项目中标...",
-  "date": "2026-09-14",
-  "link": "https://www.bidding.csg.cn/zbhxrgs/1200442558.jhtml",
-  "code": "CG0400062002359930",
-  "pubtime": "2026-09-14 16:34:15",
-  "gs_start": "",
-  "gs_end": "",
-  "candidates": [],
-  "tenderer": "",
-  "agency": "南方电网供应链（广西）有限公司",
-  "subject": "",
-  "category": "其他"
- },
- {
-  "id": "1200442559",
-  "title": "鼎和保险陕西分公司2026年--2028年分公司本部员工健康体检服务采购项目中标公告",
-  "date": "2026-09-14",
-  "link": "https://www.bidding.csg.cn/zbhxrgs/1200442559.jhtml",
-  "code": "CG1200062002372760",
-  "pubtime": "2026-09-14 16:33:15",
-  "gs_start": "",
-  "gs_end": "",
-  "candidates": [],
-  "tenderer": "",
-  "agency": "",
-  "subject": "",
-  "category": "其他"
- },
- {
-  "id": "1200442561",
-  "title": "深圳供电局有限公司2026年主网生产项目（输电电缆线路阻抗测试）服务专项公开招标中标公告",
-  "date": "2026-09-14",
-  "link": "https://www.bidding.csg.cn/zbhxrgs/1200442561.jhtml",
-  "code": "",
-  "pubtime": "2026-09-14 16:27:37",
-  "gs_start": "",
-  "gs_end": "",
-  "candidates": [
-   {
-    "name": "深圳市输变电工程有限公司",
-    "price": ""
-   }
-  ],
-  "tenderer": "深圳供电局有限公司",
-  "agency": "南方电网供应链集团有限公司",
-  "subject": "",
-  "category": "其他"
- },
- {
-  "id": "1200442562",
-  "title": "深圳供电局有限公司2026年电力科学研究院主网生产项目第三批次技术服务专项公开招标中标公告",
-  "date": "2026-09-14",
-  "link": "https://www.bidding.csg.cn/zbhxrgs/1200442562.jhtml",
-  "code": "",
-  "pubtime": "2026-09-14 16:26:40",
-  "gs_start": "",
-  "gs_end": "",
-  "candidates": [
-   {
-    "name": "生产指挥中心",
-    "price": ""
-   },
-   {
-    "name": "深圳市鼎士建设工程有限公司",
-    "price": ""
-   },
-   {
-    "name": "南方电网数据平台与安全（广东）有限公司",
-    "price": ""
-   }
-  ],
-  "tenderer": "深圳供电局有限公司",
-  "agency": "南方电网供应链集团有限公司",
-  "subject": "",
-  "category": "其他"
- },
- {
-  "id": "1200442563",
-  "title": "广州供电局调控中心2026年技改项目第一批公开招标中标公示",
-  "date": "2026-09-14",
-  "link": "https://www.bidding.csg.cn/zbhxrgs/1200442563.jhtml",
-  "code": "",
-  "pubtime": "2026-09-14 16:17:39",
-  "gs_start": "2026-09-14",
-  "gs_end": "2026-09-17",
-  "candidates": [
-   {
-    "name": "南方电网数据平台与安全（广东）有限公司",
-    "price": "268.718万元"
-   },
-   {
-    "name": "南京南瑞信息通信科技有限公司",
-    "price": "255.43万元"
-   },
-   {
-    "name": "上海迈能创豪能源科技有限公司",
-    "price": "284.8万元"
-   },
-   {
-    "name": "国电南瑞南京控制系统有限公司",
-    "price": "109万元"
-   },
-   {
-    "name": "广东众芯技术有限公司",
-    "price": "178万元"
-   },
-   {
-    "name": "调控中心E8000系统自主可控改造（软件功能安全可控适配改造）调控中心",
-    "price": ""
-   },
-   {
-    "name": "东方电子股份有限公司",
-    "price": "144.726万元"
-   }
-  ],
-  "tenderer": "广东电网有限责任公司广州供电局",
-  "agency": "南方电网供应链集团有限公司",
-  "subject": "",
-  "category": "其他"
- },
- {
-  "id": "1200442564",
-  "title": "鼎和财产保险股份有限公司2026年人工智能创新项目公开招标中标公告",
-  "date": "2026-09-14",
-  "link": "https://www.bidding.csg.cn/zbhxrgs/1200442564.jhtml",
-  "code": "",
-  "pubtime": "2026-09-14 16:17:10",
-  "gs_start": "",
-  "gs_end": "",
-  "candidates": [
-   {
-    "name": "北京火山引擎科技有限公司",
-    "price": ""
-   },
-   {
-    "name": "荣联科技集团",
-    "price": ""
-   },
-   {
-    "name": "北京朗泰宏盛信息技术有限公司",
-    "price": ""
-   },
-   {
-    "name": "北京精友世纪软件技术有限公司",
-    "price": ""
-   }
-  ],
-  "tenderer": "鼎和财产保险股份有限公司",
-  "agency": "南方电网供应链集团有限公司",
-  "subject": "",
-  "category": "其他"
- },
- {
-  "id": "1200442566",
-  "title": "南网能源院2026-2027年研究成果出版服务框架采购项目(四次招标)中标公告",
-  "date": "2026-09-14",
-  "link": "https://www.bidding.csg.cn/zbhxrgs/1200442566.jhtml",
-  "code": "",
-  "pubtime": "2026-09-14 16:16:19",
-  "gs_start": "",
-  "gs_end": "",
-  "candidates": [],
-  "tenderer": "南方电网能源发展研究院有限责任公司",
-  "agency": "南方电网供应链集团有限公司",
-  "subject": "",
-  "category": "其他"
- },
- {
-  "id": "1200442569",
-  "title": "2026年南网数字运营软件科技（广东）有限公司客户服务平台南网在线技术底座采购项目公开招标中标...",
-  "date": "2026-09-14",
-  "link": "https://www.bidding.csg.cn/zbhxrgs/1200442569.jhtml",
-  "code": "",
-  "pubtime": "2026-09-14 16:00:45",
-  "gs_start": "2026-09-14",
-  "gs_end": "2026-09-17",
-  "candidates": [
-   {
-    "name": "邦道科技有限公司",
-    "price": "2705万元"
-   }
-  ],
-  "tenderer": "南网数字运营软件科技（广东）有限公司",
-  "agency": "南方电网供应链集团有限公司",
-  "subject": "",
-  "category": "其他"
- },
- {
-  "id": "1200442570",
-  "title": "2026年南网数字运营软件科技（广东）有限公司语音引擎套装软件采购项目公开谈判中标公示",
-  "date": "2026-09-14",
-  "link": "https://www.bidding.csg.cn/zbhxrgs/1200442570.jhtml",
-  "code": "CG2100062002376332",
-  "pubtime": "2026-09-14 15:59:07",
-  "gs_start": "2026-09-14",
-  "gs_end": "2026-09-17",
-  "candidates": [
-   {
-    "name": "深圳市数聚能源科技有限公司",
-    "price": ""
-   }
-  ],
-  "tenderer": "",
-  "agency": "向招标人提出",
-  "subject": "",
-  "category": "其他"
- },
- {
-  "id": "1200442571",
-  "title": "南网国际公司2026-2028年打印复印设备维保和第三方测评服务项目中标公示",
-  "date": "2026-09-14",
-  "link": "https://www.bidding.csg.cn/zbhxrgs/1200442571.jhtml",
-  "code": "",
-  "pubtime": "2026-09-14 15:54:25",
-  "gs_start": "2026-09-14",
-  "gs_end": "2026-09-17",
-  "candidates": [],
-  "tenderer": "",
-  "agency": "",
-  "subject": "",
-  "category": "其他"
- },
- {
-  "id": "1200442572",
-  "title": "广东电网公司2026年电能表智能运维模块框架招标中标公告",
-  "date": "2026-09-14",
-  "link": "https://www.bidding.csg.cn/zbhxrgs/1200442572.jhtml",
-  "code": "CG0300022002356589",
-  "pubtime": "2026-09-14 15:53:19",
-  "gs_start": "",
-  "gs_end": "",
-  "candidates": [
-   {
-    "name": "深圳市力合微电子股份有限公司",
-    "price": ""
-   }
-  ],
-  "tenderer": "广东电网有限责任公司",
-  "agency": "南方电网供应链（广东）有限公司",
-  "subject": "",
-  "category": "其他"
- },
- {
-  "id": "1200442573",
-  "title": "广东电网公司2026年电缆接头智能接地箱框架招标中标公示",
-  "date": "2026-09-14",
-  "link": "https://www.bidding.csg.cn/zbhxrgs/1200442573.jhtml",
-  "code": "CG0300022002370883",
-  "pubtime": "2026-09-14 15:52:55",
-  "gs_start": "2026-09-14",
-  "gs_end": "2026-09-17",
-  "candidates": [
-   {
-    "name": "南方电网电力科技股份有限公司",
-    "price": "2.6553万元"
-   }
-  ],
-  "tenderer": "",
-  "agency": "南方电网供应链（广东）有限公司",
-  "subject": "",
-  "category": "其他"
- },
- {
-  "id": "1200442594",
-  "title": "深圳电网智慧能源技术有限公司2026年电化学储能运维服务框架公开谈判项目中标公告",
-  "date": "2026-09-14",
-  "link": "https://www.bidding.csg.cn/zbhxrgs/1200442594.jhtml",
-  "code": "CG0900062002370733",
-  "pubtime": "2026-09-14 15:51:08",
-  "gs_start": "",
-  "gs_end": "",
-  "candidates": [],
-  "tenderer": "",
-  "agency": "",
-  "subject": "",
-  "category": "其他"
- },
- {
-  "id": "1200442512",
-  "title": "深圳供电局有限公司2026年应急抢险装备维修与保养项目等服务项目第二批次服务专项公开招标中标公告",
-  "date": "2026-09-14",
-  "link": "https://www.bidding.csg.cn/zbhxrgs/1200442512.jhtml",
-  "code": "",
-  "pubtime": "2026-09-14 15:48:43",
-  "gs_start": "",
-  "gs_end": "",
-  "candidates": [
-   {
-    "name": "深圳市输变电工程有限公司",
-    "price": ""
-   },
-   {
-    "name": "深圳市橙意文化科技有限公司",
-    "price": ""
-   },
-   {
-    "name": "睿腾文化教育咨询（深圳）有限公司",
-    "price": ""
-   }
-  ],
-  "tenderer": "深圳供电局有限公司",
-  "agency": "南方电网供应链集团有限公司",
-  "subject": "",
-  "category": "党建"
- },
- {
-  "id": "1200442510",
-  "title": "南网超高压公司2026年第二批物资公开招标项目（2026-WZ-2-ZB）中标公告",
-  "date": "2026-09-14",
-  "link": "https://www.bidding.csg.cn/zbhxrgs/1200442510.jhtml",
-  "code": "",
-  "pubtime": "2026-09-14 15:45:07",
-  "gs_start": "",
-  "gs_end": "",
-  "candidates": [
-   {
-    "name": "西安同步电气有限责任公司",
-    "price": ""
-   },
-   {
-    "name": "合肥科大立安安全技术有限责任公司",
-    "price": ""
-   },
-   {
-    "name": "山东和兑智能科技有限公司",
-    "price": ""
-   },
-   {
-    "name": "请中标人按要求登陆中国南方电网有限责任公司",
-    "price": ""
-   }
-  ],
-  "tenderer": "中国南方电网有限责任公司超高压输电公司",
-  "agency": "南方电网供应链集团有限公司",
-  "subject": "",
-  "category": "其他"
- },
- {
-  "id": "1200442524",
-  "title": "广东电力通信科技有限公司2026-2027年安全通信组件生产代工服务框架采购中标公示",
-  "date": "2026-09-14",
-  "link": "https://www.bidding.csg.cn/zbhxrgs/1200442524.jhtml",
-  "code": "CG0300022002383879",
-  "pubtime": "2026-09-14 15:36:43",
-  "gs_start": "2026-09-14",
-  "gs_end": "2026-09-17",
-  "candidates": [
-   {
-    "name": "珠海市鸿瑞信息技术股份有限公司",
-    "price": "0.2989万元"
-   }
-  ],
-  "tenderer": "",
-  "agency": "南方电网供应链（广东）有限公司",
-  "subject": "",
-  "category": "其他"
- },
- {
-  "id": "1200442523",
-  "title": "广东电力通信科技有限公司2026-2027年无线通信装置I型试制及代工服务框架采购中标公示",
-  "date": "2026-09-14",
-  "link": "https://www.bidding.csg.cn/zbhxrgs/1200442523.jhtml",
-  "code": "CG0300022002383718",
-  "pubtime": "2026-09-14 15:36:08",
-  "gs_start": "2026-09-14",
-  "gs_end": "2026-09-17",
-  "candidates": [
-   {
-    "name": "南京南瑞信息通信科技有限公司",
-    "price": "74.33万元"
-   }
-  ],
-  "tenderer": "",
-  "agency": "南方电网供应链（广东）有限公司",
-  "subject": "",
-  "category": "其他"
- },
- {
-  "id": "1200442502",
-  "title": "广东电力通信科技有限公司2026-2027年工业以太网交换机整部件委托制造服务框架采购中标公示",
-  "date": "2026-09-14",
-  "link": "https://www.bidding.csg.cn/zbhxrgs/1200442502.jhtml",
-  "code": "CG0300022002382448",
-  "pubtime": "2026-09-14 15:35:09",
-  "gs_start": "2026-09-14",
-  "gs_end": "2026-09-17",
-  "candidates": [
-   {
-    "name": "南京南瑞信息通信科技有限公司",
-    "price": "0.8768万元"
-   }
-  ],
-  "tenderer": "",
-  "agency": "南方电网供应链（广东）有限公司",
-  "subject": "",
-  "category": "其他"
- },
- {
-  "id": "1200442500",
-  "title": "《南方能源观察》杂志社有限公司2027-2029年杂志印刷项目中标公告",
-  "date": "2026-09-14",
-  "link": "https://www.bidding.csg.cn/zbhxrgs/1200442500.jhtml",
-  "code": "",
-  "pubtime": "2026-09-14 15:28:09",
-  "gs_start": "",
-  "gs_end": "",
-  "candidates": [],
-  "tenderer": "南方电网数字传媒科技有限公司",
-  "agency": "南方电网供应链集团有限公司",
-  "subject": "",
-  "category": "其他"
- },
- {
-  "id": "1200442499",
-  "title": "贵州电力建设监理咨询有限责任公司物资类2026年终端设备框架招标中标公告",
-  "date": "2026-09-14",
-  "link": "https://www.bidding.csg.cn/zbhxrgs/1200442499.jhtml",
-  "code": "CG0600022002359523",
-  "pubtime": "2026-09-14 15:26:38",
-  "gs_start": "",
-  "gs_end": "",
-  "candidates": [
-   {
-    "name": "广州市卓翔信息技术有限公司",
-    "price": ""
-   },
-   {
-    "name": "中国长城科技集团",
-    "price": ""
-   },
-   {
-    "name": "股份有限公司",
-    "price": ""
-   }
-  ],
-  "tenderer": "贵州电力建设监理咨询有限责任公司",
-  "agency": "南方电网供应链（贵州）有限公司",
-  "subject": "",
-  "category": "其他"
- },
- {
-  "id": "1200442495",
-  "title": "2026年南网北京研究院储能和充电桩多工况直流电弧试验与数据集加工服务采购中标公示",
-  "date": "2026-09-14",
-  "link": "https://www.bidding.csg.cn/zbhxrgs/1200442495.jhtml",
-  "code": "",
-  "pubtime": "2026-09-14 15:08:32",
-  "gs_start": "2026-09-14",
-  "gs_end": "2026-09-17",
-  "candidates": [
-   {
-    "name": "深圳永泰数能科技有限公司",
-    "price": "37.8万元"
-   }
-  ],
-  "tenderer": "南方电网新型电力系统（北京）研究院有限公司",
-  "agency": "南方电网供应链集团有限公司",
-  "subject": "",
-  "category": "其他"
- },
- {
-  "id": "1200442494",
-  "title": "南网在职教育公司2026年-2028年洗涤服务项目中标公示",
-  "date": "2026-09-14",
-  "link": "https://www.bidding.csg.cn/zbhxrgs/1200442494.jhtml",
-  "code": "",
-  "pubtime": "2026-09-14 15:06:43",
-  "gs_start": "2026-09-14",
-  "gs_end": "2026-09-17",
-  "candidates": [],
-  "tenderer": "",
-  "agency": "",
-  "subject": "",
-  "category": "其他"
- },
- {
-  "id": "1200442491",
-  "title": "南网科研院业务财务体系建设与实践研究采购项目中标公示",
-  "date": "2026-09-14",
-  "link": "https://www.bidding.csg.cn/zbhxrgs/1200442491.jhtml",
-  "code": "",
-  "pubtime": "2026-09-14 14:07:03",
-  "gs_start": "2026-09-14",
-  "gs_end": "2026-09-17",
-  "candidates": [],
-  "tenderer": "",
-  "agency": "",
   "subject": "",
   "category": "其他"
  }
