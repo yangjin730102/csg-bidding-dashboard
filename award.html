@@ -11,71 +11,64 @@
   a{color:var(--brand);text-decoration:none}
   .hero{background:linear-gradient(120deg,#0e7490,#155e75 55%,#164e63);color:#fff;padding:30px 24px 66px;position:relative;overflow:hidden}
   .hero::after{content:"";position:absolute;inset:0;background:radial-gradient(600px 200px at 85% -20%,rgba(255,255,255,.18),transparent);pointer-events:none}
-  .hero-inner{max-width:1280px;margin:0 auto;position:relative;z-index:1}
+  .hero-inner{max-width:1360px;margin:0 auto;position:relative;z-index:1}
   .nav{display:flex;gap:8px;margin-bottom:14px}
   .nav a{padding:6px 14px;border-radius:999px;font-size:13px;color:#fff;border:1px solid rgba(255,255,255,.35)}
   .nav a.on{background:rgba(255,255,255,.2);border-color:#fff}
   .hero h1{margin:0 0 6px;font-size:25px;display:flex;align-items:center;gap:10px}
   .hero h1 .dot{width:10px;height:10px;border-radius:50%;background:var(--accent);box-shadow:0 0 0 4px rgba(245,158,11,.25)}
   .hero p{margin:0;color:rgba(255,255,255,.82);font-size:13.5px}
-  .wrap{max-width:1280px;margin:-48px auto 0;padding:0 20px 60px;position:relative;z-index:2}
+  .wrap{max-width:1360px;margin:-48px auto 0;padding:0 18px 60px;position:relative;z-index:2}
   .stats{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-bottom:16px}
   .stat{background:var(--panel);border-radius:14px;padding:14px;box-shadow:var(--shadow);border:1px solid var(--line)}
   .stat .n{font-size:22px;font-weight:700;color:var(--brand)}
   .stat .l{font-size:12.5px;color:var(--muted);margin-top:2px}
   .card{background:var(--panel);border-radius:14px;box-shadow:var(--shadow);border:1px solid var(--line);padding:14px 16px;margin-bottom:16px}
-  .controls{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin-bottom:10px}
-  .controls .grow{flex:1;min-width:220px}
-  input[type=search],select{width:100%;padding:9px 12px;border:1px solid var(--line);border-radius:10px;font-size:13.5px;background:#fff;color:var(--ink)}
-  select{max-width:190px}
-  input:focus,select:focus{outline:none;border-color:var(--brand2);box-shadow:0 0 0 3px rgba(8,145,178,.15)}
-  .chips{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:10px}
-  .chip{padding:4px 12px;border-radius:999px;border:1px solid var(--line);background:#fff;font-size:12.5px;cursor:pointer;color:var(--muted)}
-  .chip.on{background:var(--brand);color:#fff;border-color:var(--brand)}
-  .count{color:var(--muted);font-size:12.5px;margin:0 2px 10px}
+  .filters{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-bottom:10px}
+  .filters label{font-size:11.5px;color:var(--muted);display:block;margin-bottom:3px}
+  .filters input{width:100%;padding:8px 10px;border:1px solid var(--line);border-radius:9px;font-size:13px;background:#fff;color:var(--ink)}
+  .filters input:focus{outline:none;border-color:var(--brand2);box-shadow:0 0 0 3px rgba(8,145,178,.14)}
+  .toolbar{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:10px;margin-bottom:10px}
+  .toolbar .count{color:var(--muted);font-size:12.5px}
+  .btn{font-size:12.5px;padding:7px 12px;border-radius:9px;border:1px solid var(--line);background:#fff;cursor:pointer;font-weight:600;color:var(--ink)}
+  .btn:hover{background:#f8fafc}
   .tbl-wrap{overflow-x:auto}
-  table{width:100%;border-collapse:collapse;font-size:13px;min-width:900px}
-  th,td{padding:10px 10px;text-align:left;vertical-align:top;border-bottom:1px solid var(--line)}
-  th{font-size:12px;color:var(--muted);font-weight:600;background:#fafcff}
-  td.t{max-width:340px}
+  table{width:100%;border-collapse:collapse;font-size:13px;min-width:1120px}
+  th,td{padding:9px 9px;text-align:left;vertical-align:top;border-bottom:1px solid var(--line)}
+  th{font-size:12px;color:#334155;font-weight:700;background:#f1f5f9;white-space:nowrap;position:sticky;top:0}
+  td.t{max-width:300px;min-width:220px}
   td.t a{font-weight:600;color:var(--ink)} td.t a:hover{color:var(--brand)}
-  .tag{display:inline-block;font-size:11px;padding:2px 8px;border-radius:999px;background:#ecfeff;color:#0e7490;border:1px solid #a5f3fc;white-space:nowrap}
-  .tag.dt{background:#fef3c7;color:#92400e;border-color:#fde68a}
-  .cand{font-size:12.5px}
-  .cand .p{color:#b91c1c;font-weight:600}
+  td.proj{max-width:260px;color:#334155}
+  .amt{color:#b91c1c;font-weight:700;white-space:nowrap}
   .muted{color:var(--muted)}
   .pager{display:flex;gap:8px;align-items:center;justify-content:center;flex-wrap:wrap;margin-top:16px}
   .pager button{min-width:36px;height:36px;padding:0 10px;border:1px solid var(--line);background:#fff;border-radius:9px;cursor:pointer;font-size:13px;font-weight:600}
   .pager button.active{background:var(--brand);color:#fff;border-color:var(--brand)}
   .pager button:disabled{opacity:.4;cursor:not-allowed}
   .empty{text-align:center;color:var(--muted);padding:40px 0}
-  .foot{max-width:1280px;margin:0 auto;padding:18px 20px;color:var(--muted);font-size:12px;text-align:center}
-  @media(max-width:900px){.stats{grid-template-columns:repeat(2,1fr)}}
+  .foot{max-width:1360px;margin:0 auto;padding:18px;color:var(--muted);font-size:12px;text-align:center}
+  @media(max-width:900px){.stats{grid-template-columns:repeat(2,1fr)}.filters{grid-template-columns:1fr 1fr}}
 </style>
 </head>
 <body>
 <div class="hero"><div class="hero-inner">
   <div class="nav"><a href="index.html">招标公告</a><a class="on" href="award.html">中标公示</a></div>
   <h1><span class="dot"></span>南方电网中标公示看板</h1>
-  <p>仅收录最近 3 天的中标公告 / 中标公示 · 关键信息一目了然 · 自动采集</p>
+  <p>仅最近 3 天中标公示 · 按 发布日期/采购单位/公示标题/项目名称/分标编号/分标名称/包号/中标候选人/金额 展示与筛选</p>
 </div></div>
 <div class="wrap">
   <div class="stats" id="stats"></div>
   <div class="card">
-    <div class="controls">
-      <div class="grow"><input type="search" id="q" placeholder="搜索项目名称 / 中标人 / 招标人 / 编号…"></div>
-      <select id="sort">
-        <option value="date_desc">公示时间 新→旧</option>
-        <option value="date_asc">公示时间 旧→新</option>
-      </select>
+    <div class="filters" id="filters"></div>
+    <div class="toolbar">
+      <div class="count" id="count"></div>
+      <button class="btn" id="reset">清空筛选</button>
     </div>
-    <div class="chips" id="chips"></div>
-    <div class="count" id="count"></div>
     <div class="tbl-wrap">
       <table>
         <thead><tr>
-          <th style="width:96px">公示日期</th><th style="width:88px">品类</th><th>项目名称</th>
-          <th style="width:220px">中标人 / 报价</th><th style="width:150px">公示期</th><th style="width:170px">招标人</th>
+          <th>发布日期</th><th>采购单位</th><th>公示标题</th><th>项目名称</th>
+          <th>分标编号</th><th>分标名称</th><th>包号</th><th>中标候选人</th><th>金额（万元）</th>
         </tr></thead>
         <tbody id="tbody"></tbody>
       </table>
@@ -86,46 +79,61 @@
 </div>
 <div class="foot">数据来源：中国南方电网供应链统一服务平台 · 中标公示频道 · 仅最近3天 · 自动采集</div>
 <script>
-const PAGE=10; let DATA=[], page=1, cat="";
+const PAGE=15; let DATA=[], ROWS=[], page=1;
+const FIELDS=[
+  {k:"date",  label:"发布日期"},
+  {k:"buyer", label:"采购单位"},
+  {k:"title", label:"公示标题"},
+  {k:"project",label:"项目名称"},
+  {k:"seq",   label:"分标编号"},
+  {k:"item",  label:"分标名称"},
+  {k:"pkg",   label:"包号"},
+  {k:"cand",  label:"中标候选人"},
+  {k:"amt",   label:"金额（万元）"},
+];
+let FILTERS={};
 const esc=s=>(s==null?"":String(s)).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+function buildRows(){
+  ROWS=[];
+  DATA.forEach(x=>{
+    const base={date:x.date||"", buyer:x.tenderer||"", title:x.title||"", link:x.link||"", project:x.project||x.title||""};
+    if(x.rows&&x.rows.length){
+      x.rows.forEach(r=>ROWS.push({...base, seq:r["分标编号"]||"", item:r["分标名称"]||"", pkg:r["包号"]||"", cand:r["中标候选人"]||"", amt:r["金额"]||""}));
+    }else{
+      ROWS.push({...base, seq:"", item:"", pkg:"", cand:"", amt:""});
+    }
+  });
+}
 function stats(){
-  const total=DATA.length;
-  const cats=new Set(DATA.map(x=>x.category));
-  const withC=DATA.filter(x=>x.candidates&&x.candidates.length).length;
-  const dates=new Set(DATA.map(x=>x.date));
+  const gongshi=DATA.length, rows=ROWS.length;
+  const buyers=new Set(DATA.map(x=>x.tenderer).filter(Boolean));
+  const cands=new Set(); ROWS.forEach(r=>r.cand&&cands.add(r.cand));
   document.getElementById("stats").innerHTML=[
-    ["中标公示",total+" 条"],["覆盖品类",cats.size+" 类"],["覆盖天数",dates.size+" 天"],["含中标人",withC+" 条"]
+    ["中标公示",gongshi+" 条"],["明细行",rows+" 行"],["采购单位",buyers.size+" 家"],["中标候选人",cands.size+" 家"]
   ].map(d=>`<div class="stat"><div class="n">${esc(d[1])}</div><div class="l">${esc(d[0])}</div></div>`).join("");
 }
-function chips(){
-  const cc={}; DATA.forEach(x=>cc[x.category]=(cc[x.category]||0)+1);
-  const arr=Object.entries(cc).sort((a,b)=>b[1]-a[1]);
-  document.getElementById("chips").innerHTML=
-    `<span class="chip ${cat===""?"on":""}" data-c="">全部 ${DATA.length}</span>`+
-    arr.map(([k,v])=>`<span class="chip ${cat===k?"on":""}" data-c="${esc(k)}">${esc(k)} ${v}</span>`).join("");
+function renderFilters(){
+  document.getElementById("filters").innerHTML=FIELDS.map(f=>
+    `<div><label>${esc(f.label)}</label><input data-k="${f.k}" value="${esc(FILTERS[f.k]||"")}" placeholder="筛选${esc(f.label)}"></div>`).join("");
 }
 function filtered(){
-  const q=document.getElementById("q").value.trim().toLowerCase();
-  const sv=document.getElementById("sort").value;
-  let rows=DATA.filter(x=>{
-    if(cat&&x.category!==cat)return false;
-    if(q){const hay=(x.title+" "+(x.candidates||[]).map(c=>c.name).join(" ")+" "+(x.tenderer||"")+" "+(x.code||"")).toLowerCase();if(!hay.includes(q))return false;}
-    return true;
-  });
-  rows.sort((a,b)=>sv==="date_desc"?(b.date||"").localeCompare(a.date||""):(a.date||"").localeCompare(b.date||""));
-  return rows;
+  return ROWS.filter(r=>FIELDS.every(f=>{
+    const q=(FILTERS[f.k]||"").trim().toLowerCase();
+    if(!q) return true;
+    return String(r[f.k]||"").toLowerCase().includes(q);
+  }));
 }
-function row(x){
-  const cand=(x.candidates&&x.candidates.length)
-    ? x.candidates.map(c=>`<div class="cand">${esc(c.name)}${c.price?`　<span class="p">${esc(c.price)}</span>`:""}</div>`).join("")
-    : '<span class="muted">详见原文</span>';
+function rowHtml(r){
   return `<tr>
-    <td><span class="tag dt">${esc(x.date)}</span></td>
-    <td><span class="tag">${esc(x.category)}</span></td>
-    <td class="t"><a href="${esc(x.link)}" target="_blank" rel="noopener">${esc(x.title)}</a>${x.code?`<div class="muted" style="font-size:11px">${esc(x.code)}</div>`:""}</td>
-    <td>${cand}</td>
-    <td class="muted">${esc(x.gs_start||"—")} ~ ${esc(x.gs_end||"—")}</td>
-    <td class="muted">${esc(x.tenderer||"—")}</td>
+    <td class="muted" style="white-space:nowrap">${esc(r.date)}</td>
+    <td>${esc(r.buyer)||'<span class="muted">—</span>'}</td>
+    <td class="t"><a href="${esc(r.link)}" target="_blank" rel="noopener">${esc(r.title)}</a></td>
+    <td class="proj">${esc(r.project)}</td>
+    <td>${esc(r.seq)||'<span class="muted">—</span>'}</td>
+    <td>${esc(r.item)||'<span class="muted">—</span>'}</td>
+    <td>${esc(r.pkg)||'<span class="muted">—</span>'}</td>
+    <td>${esc(r.cand)||'<span class="muted">详见原文</span>'}</td>
+    <td class="amt">${esc(r.amt)||'—'}</td>
   </tr>`;
 }
 function pager(tp){
@@ -142,16 +150,15 @@ function render(){
   const rows=filtered(); const tp=Math.max(1,Math.ceil(rows.length/PAGE));
   if(page>tp)page=tp; if(page<1)page=1;
   const st=(page-1)*PAGE, pr=rows.slice(st,st+PAGE);
-  document.getElementById("count").textContent=rows.length?`显示 ${st+1}–${Math.min(st+PAGE,rows.length)} / 共 ${rows.length} 条 · 第 ${page}/${tp} 页`:`共 0 条`;
+  document.getElementById("count").textContent=rows.length?`显示 ${st+1}–${Math.min(st+PAGE,rows.length)} / 共 ${rows.length} 行 · 第 ${page}/${tp} 页`:`共 0 行`;
   document.getElementById("empty").style.display=rows.length?"none":"block";
-  document.getElementById("tbody").innerHTML=pr.map(row).join("");
+  document.getElementById("tbody").innerHTML=pr.map(rowHtml).join("");
   pager(tp);
 }
-document.getElementById("chips").addEventListener("click",e=>{const c=e.target.closest(".chip");if(!c)return;cat=c.dataset.c;page=1;chips();render();});
+document.getElementById("filters").addEventListener("input",e=>{const i=e.target.closest("input[data-k]");if(!i)return;FILTERS[i.dataset.k]=i.value;page=1;render();});
+document.getElementById("reset").addEventListener("click",()=>{FILTERS={};page=1;renderFilters();render();});
 document.getElementById("pager").addEventListener("click",e=>{const b=e.target.closest("button[data-go]");if(!b||b.disabled)return;page=+b.dataset.go;render();});
-document.getElementById("q").addEventListener("input",()=>{page=1;render();});
-document.getElementById("sort").addEventListener("change",()=>{page=1;render();});
-fetch("award.json",{cache:"no-store"}).then(r=>r.json()).then(d=>{DATA=d||[];stats();chips();render();}).catch(e=>{document.getElementById("count").textContent="加载失败："+e;});
+fetch("award.json",{cache:"no-store"}).then(r=>r.json()).then(d=>{DATA=d||[];buildRows();stats();renderFilters();render();}).catch(e=>{document.getElementById("count").textContent="加载失败："+e;});
 </script>
 </body>
 </html>
