@@ -1,8 +1,30 @@
 {
- "snapshot": "2026-10-15 09:12",
+ "snapshot": "2026-10-15 11:05",
  "base_url": "https://icntqypjy02c.feishu.cn/base/Zu2abZB0AaDQJqsgE37cnI4anHg?table=tblKvvfSxh2M0kro&view=vewMReb6Eu",
- "total": 124,
+ "total": 125,
  "items": [
+  {
+   "title": "南方鼎元资产运营有限责任公司工程建设现场作业视频督查终端零星采购公告",
+   "code": "LXCG1900062002423441",
+   "buyer": "南方鼎元资产运营有限责任公司",
+   "type": "零星采购公告",
+   "platform": "南方电网",
+   "pubtime": "2026-10-15",
+   "bidtime": "2026-10-15 00:00:00",
+   "budget": "44,000.00元",
+   "price": "4.4",
+   "pkgprice": "4.4",
+   "cat": "通信设备",
+   "status": "待跟进",
+   "addr": "",
+   "period": "15天",
+   "pkgname": "南方鼎元资产运营有限责任公司工程建设现场作业视频督查终端",
+   "pkginfo": "南方鼎元资产运营有限责任公司工程建设现场作业视频督查终端（概算44000.00元，限价44000.00元，交货期：15天）",
+   "fenbao": "",
+   "qual": "资格条件和提供证明文件如下 （一）资格条件 无",
+   "perf": "",
+   "link": "https://www.bidding.csg.cn/lxcggg/1200445610.jhtml"
+  },
   {
    "title": "深圳龙岗供电局2026年职工创新项目《配电电缆入网综合智能核检仪研制》材料采购零星采购公告",
    "code": "LXCG0900062002401205",
