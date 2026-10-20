@@ -1,8 +1,30 @@
 {
- "snapshot": "2026-10-20 11:03",
+ "snapshot": "2026-10-20 13:04",
  "base_url": "https://icntqypjy02c.feishu.cn/base/Zu2abZB0AaDQJqsgE37cnI4anHg?table=tblKvvfSxh2M0kro&view=vewMReb6Eu",
- "total": 151,
+ "total": 152,
  "items": [
+  {
+   "title": "海南公司2026年电力试验设备及安全工器具检测服务零星采购公告",
+   "code": "LXCG2100062002432414",
+   "buyer": "南方电网数字电网集团有限公司",
+   "type": "零星采购公告",
+   "platform": "南方电网",
+   "pubtime": "2026-10-20",
+   "bidtime": "2026-10-22 18:00:00",
+   "budget": "25,346.00元",
+   "price": "2.5346",
+   "pkgprice": "2.5346",
+   "cat": "工器具类",
+   "status": "待跟进",
+   "addr": "",
+   "period": "自合同签订之日起壹年",
+   "pkgname": "海南公司2026年电力试验设备及安全工器具检测服务",
+   "pkginfo": "海南公司2026年电力试验设备及安全工器具检测服务（概算25346.00元，限价25346.00元，服务期：自合同签订之日起壹年）",
+   "fenbao": "",
+   "qual": "资质的第三方检测机构，依据《电力安全工器具预防性试验规程》(DL/T1476-2023)与《电力设备预防性试验规程》（DL/T596-2021)，定期组织对电力安全工器具、试验设备进行检测，确保检测全覆盖，并出具相应检测报告",
+   "perf": "",
+   "link": "https://www.bidding.csg.cn/lxcggg/1200446270.jhtml"
+  },
   {
    "title": "南网科研院变压器绝缘油废油回收处理服务零星采购公告",
    "code": "LXCG1500062002407539",
