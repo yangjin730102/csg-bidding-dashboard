@@ -1,8 +1,30 @@
 {
- "snapshot": "2026-10-24 15:01",
+ "snapshot": "2026-10-24 17:04",
  "base_url": "https://icntqypjy02c.feishu.cn/base/Zu2abZB0AaDQJqsgE37cnI4anHg?table=tblKvvfSxh2M0kro&view=vewMReb6Eu",
- "total": 190,
+ "total": 191,
  "items": [
+  {
+   "title": "广西博联信息通信技术有限责任公司工程服务部2026年控制电缆ZAN-KVVRP-7*4零星采购项目零星采购公告",
+   "code": "LXCG2100062002433857",
+   "buyer": "广西博联信息通信技术有限责任公司",
+   "type": "零星采购公告",
+   "platform": "南方电网",
+   "pubtime": "2026-10-24",
+   "bidtime": "2026-10-27 17:00:00",
+   "budget": "21,193.11元",
+   "price": "2.1193",
+   "pkgprice": "2.1193",
+   "cat": "装置性材料",
+   "status": "待跟进",
+   "addr": "",
+   "period": "合同签订之日起7日内",
+   "pkgname": "广西博联信息通信技术有限责任公司工程服务部2026年控制电缆ZAN-KVVRP-7*4零星采购项目",
+   "pkginfo": "广西博联信息通信技术有限责任公司工程服务部2026年控制电缆ZAN-KVVRP-7*4零星采购项目（概算21193.11元，限价21193.11元，交货期：合同签订之日起7日内）",
+   "fenbao": "控制电缆 ZAN-KVVRP-7*4",
+   "qual": "资格条件和提供证明文件如下 （一）资格条件 1、在中华人民共和国境内注册，持有合法有效的企业法人营业执照",
+   "perf": "",
+   "link": "https://www.bidding.csg.cn/lxcggg/1200446984.jhtml"
+  },
   {
    "title": "一种快装型智能电缆通道警示桩的研制职工创新项目测试加工服务采购零星采购公告",
    "code": "LXCG0300062002414165",
