@@ -1,5 +1,5 @@
 {
- "snapshot": "2026-11-05 13:05",
+ "snapshot": "2026-11-05 15:04",
  "base_url": "https://icntqypjy02c.feishu.cn/base/Zu2abZB0AaDQJqsgE37cnI4anHg?table=tblKvvfSxh2M0kro&view=vewMReb6Eu",
  "total": 250,
  "items": [
@@ -80,7 +80,7 @@
    "budget": "2,000.00元",
    "price": "0.2",
    "pkgprice": "0.2",
-   "cat": "配件",
+   "cat": "一次设备",
    "status": "待跟进",
    "addr": "",
    "period": "2026年10月15日",
@@ -102,7 +102,7 @@
    "budget": "500.00元",
    "price": "0.05",
    "pkgprice": "0.05",
-   "cat": "配件",
+   "cat": "一次设备",
    "status": "待跟进",
    "addr": "",
    "period": "2026年11月05日",
